@@ -1,2 +1,68 @@
-body{background-color: aliceblue;
-}
+/* Set body font and background color */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Set heading font and color */
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4d4d4d;
+  }
+  
+  /* Set link color */
+  a {
+    color: #66cccc;
+  }
+  
+  /* Set background color and border for buttons */
+  button {
+    background-color: #66cccc;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Style specific elements */
+  .header {
+    background-color: #e6e6e6;
+    padding: 20px;
+  }
+  
+  .footer {
+    background-color: #e6e6e6;
+    padding: 20px;
+  }
+  
+  /* Style form elements */
+  input[type="text"], textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  input[type="submit"] {
+    background-color: #66cccc;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  

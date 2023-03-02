@@ -5,10 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey page 1</title>
-    <link ref="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
 <body>
      <h1>Survey page 1</h1> 
+
+     <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div>
+            <label for="fname"> First name:
+                <input id="fname" type="text" autofocus >
+            </label>
+            </div>
+
+            <div>
+            <label for="lname"> Last name:
+                <input id="lname" type="text">
+            </label>
+            </div>
+
+            <label for="email"> Email address:
+                <input id="email" type="text">
+            </label>
+
+        </fieldset>
+
+
+
+
+     </form>
         <button onclick="window.location.href='./survey-2.html';">
             Next page
           </button>
