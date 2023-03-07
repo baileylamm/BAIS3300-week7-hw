@@ -25,7 +25,7 @@ body {
   
   /* Set background color and border for buttons */
   button {
-    background-color: #66cccc;
+    background-color: ##2B8282;
     border: none;
     color: #ffffff;
     padding: 10px 20px;
@@ -61,7 +61,7 @@ body {
   }
   
   input[type="submit"] {
-    background-color: #66cccc;
+    background-color: ##2B8282;
     border: none;
     color: white;
     padding: 10px 20px;
