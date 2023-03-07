@@ -2,7 +2,7 @@
 /* background-color: #f2f2f2;
 /* heading font and color: #4d4d4d
 /* link color: #66cccc
-/* background color for button: #66cccc
+/* background color for button: #2B8282
 /* font color for button: #ffffff
 
 
@@ -61,7 +61,7 @@ body {
   }
   
   input[type="submit"] {
-    background-color: #2B8282;
+    background-color: #2b8282;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -78,5 +78,5 @@ body {
     max-width: 100%; /* Make sure the image doesn't overflow its container */
     display: block; /* Make the image a block-level element */
     margin: auto; /* Center the image horizontally within its container */
-    border: 5px solid #66cccc; /* Add a 1-pixel solid black border around the image */
+    border: 5px solid #2B8282; /* Add a 1-pixel solid black border around the image */
   }
