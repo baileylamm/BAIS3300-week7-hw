@@ -1,3 +1,11 @@
+/* color map /*
+/* background-color: #f2f2f2;
+/* heading font and color: #4d4d4d
+/* link color: #66cccc
+/* background color for button: #66cccc
+/* font color for button: #ffffff
+
+
 /* Set body font and background color */
 body {
     font-family: 'Lato', sans-serif;
@@ -19,7 +27,7 @@ body {
   button {
     background-color: #66cccc;
     border: none;
-    color: white;
+    color: #ffffff;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -66,3 +74,9 @@ body {
     border-radius: 5px;
   }
   
+  img {
+    max-width: 100%; /* Make sure the image doesn't overflow its container */
+    display: block; /* Make the image a block-level element */
+    margin: auto; /* Center the image horizontally within its container */
+    border: 1px solid black; /* Add a 1-pixel solid black border around the image */
+  }
