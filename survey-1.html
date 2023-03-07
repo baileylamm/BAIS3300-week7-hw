@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey Page 1</title>
+    <title role="Title">Survey Page 1</title>
     <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
 <body>
      <h1>Survey page 1</h1> 
 
-     <form>
+     <form role="Form">
         <fieldset>
-            <legend>Contact Information</legend>
+            <legend role="Contact Information">Contact Information</legend>
             <div>
             <label for="fname"> First name:
                 <input id="fname" type="text" autofocus required 
@@ -42,6 +42,7 @@
             <div>
             <label for="student-enrollment"> 
                 Current student enrollment: 
+                input id="student-enrollment"
                 <select name="student-enrollment" id="student-enrollment">
                   <option value="" selected> Choose one ... </option>
                   <option value="full-time"> Full-time </option>
@@ -54,7 +55,7 @@
         </fieldset>
 
         <fieldset>
-        <legend>Gender</legend>
+        <legend role="Gender">Gender</legend>
         <label for="female">
             <input type="radio" id="female" name="gender" value="female"> Female 
         </label>
@@ -76,7 +77,7 @@
 
 
         <fieldset>
-            <legend> Race </legend>
+            <legend role="Race"> Race </legend>
               <div>
             <label for="AIAN">
                 <input type="checkbox" id="AIAN" name="Race" value ="AIAN"> American Indian or Alaska Native
