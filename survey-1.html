@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title role="Title">Survey Page 1</title>
+    <title>Survey Page 1</title>
     <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
 <body>
      <h1>Survey page 1</h1> 
 
-     <form role="Form">
+     <form>
         <fieldset>
-            <legend role="Contact Information">Contact Information</legend>
+            <legend>Contact Information</legend>
             <div>
             <label for="fname"> First name:
                 <input id="fname" type="text" autofocus required 
@@ -54,7 +54,7 @@
         </fieldset>
 
         <fieldset>
-        <legend role="Gender">Gender</legend>
+        <legend>Gender</legend>
         <label for="female">
             <input type="radio" id="female" name="gender" value="female"> Female 
         </label>
@@ -76,7 +76,7 @@
 
 
         <fieldset>
-            <legend role="Race"> Race </legend>
+            <legend> Race </legend>
               <div>
             <label for="AIAN">
                 <input type="checkbox" id="AIAN" name="Race" value ="AIAN"> American Indian or Alaska Native
@@ -101,10 +101,11 @@
                   </label>    
                 </div>
 
-                <div>
+                  <div>
                     <label for="White">
                         <input type="checkbox" id="White" name="Race" value ="White"> White
-                    </div>    
+                    </label>
+                    </div>      
           </fieldset> 
 
 
@@ -112,7 +113,6 @@
         <button onclick="window.location.href='./survey-2.html';">
             Next page
           </button>
-    </p>
     <p>page 1 of 2</p>
 </body>
 </html>
