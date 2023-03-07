@@ -78,5 +78,5 @@ body {
     max-width: 100%; /* Make sure the image doesn't overflow its container */
     display: block; /* Make the image a block-level element */
     margin: auto; /* Center the image horizontally within its container */
-    border: 1px solid black; /* Add a 1-pixel solid black border around the image */
+    border: 5px solid #66cccc; /* Add a 1-pixel solid black border around the image */
   }
